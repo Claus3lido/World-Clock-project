@@ -26,6 +26,8 @@ footer {
   margin: 60px auto;
 }
 .timezone {
+  max-width: 600px;
+  margin: 60px auto;
   background: #fffdfb;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
