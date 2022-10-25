@@ -21,7 +21,7 @@ footer {
 }
 .container {
   max-width: 600 px;
-  margin: 60px auto;
+  margin: 60px auto 100px;
   border-radius: 10px;
   background: #fffdfb;
   padding: 30px;
