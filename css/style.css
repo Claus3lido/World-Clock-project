@@ -11,7 +11,6 @@ h2 {
   font-size: 28px;
 }
 select {
-  border-top: 1px solid #0881a3;
   display: block;
   width: 100%;
   padding: 10px;
@@ -26,9 +25,11 @@ footer {
   max-width: 600px;
   margin: 60px auto;
 }
+.header {
+  border-radius: 10px;
+  background: #fffdfb;
+}
 .timezone {
-  max-width: 600px;
-  margin: 60px auto;
   background: #fffdfb;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
