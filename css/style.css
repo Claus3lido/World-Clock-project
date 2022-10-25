@@ -1,5 +1,5 @@
 body {
-  background: #ffd6a4;
+  background: #fde9df;
   font-family: "DM Sans", sans-serif;
 }
 h1 {
@@ -23,7 +23,7 @@ footer {
   max-width: 600 px;
   margin: 60px auto;
   border-radius: 10px;
-  background: #fde9df;
+  background: #fffdfb;
   padding: 30px;
 }
 .city {
