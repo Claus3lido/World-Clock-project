@@ -19,7 +19,7 @@ select {
 }
 footer {
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
 }
 .container {
   max-width: 600px;
@@ -44,7 +44,7 @@ footer {
 }
 
 .time {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
 }
 
