@@ -3,7 +3,7 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 h1 {
-  text-align: left;
+  text-align: center;
   font-size: 36px;
 }
 h2 {
@@ -24,6 +24,8 @@ footer {
 .container {
   max-width: 600px;
   margin: 60px auto;
+}
+.timezone {
   background: #fffdfb;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
