@@ -5,13 +5,13 @@ body {
 h1 {
   text-align: center;
   font-size: 36px;
-  border-bottom: 1px solid #0881a3;
 }
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
 }
 select {
+  border-top: 1px solid #0881a3;
   display: block;
   width: 100%;
   padding: 10px;
