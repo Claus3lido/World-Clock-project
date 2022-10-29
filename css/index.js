@@ -6,12 +6,19 @@ function updateTime() {
   sanDiegoDatesElement.innerHTML = sanDiegoTime.format("MMMM Do YYYY");
   sanDiegoTimeElement.innerHTML = sanDiegoTime.format("h:mm:ss A");
 
-  let shanghaiElement = document.querySelector(".san-diego");
+  let shanghaiElement = document.querySelector(".shanghai");
   let shanghaiDatesElement = shanghaiElement.querySelector(".date");
   let shanghaiTimeElement = shanghaiElement.querySelector(".time");
   let shanghaiTime = moment().tz("Asia/Shanghai");
   shanghaiDatesElement.innerHTML = shanghaiTime.format("MMMM Do YYYY");
   shanghaiTimeElement.innerHTML = shanghaiTime.format("h:mm:ss A");
+
+  let dublinElement = document.querySelector(".dublin");
+  let dublinDatesElement = dublinElement.querySelector(".date");
+  let dublinTimeElement = dublinElement.querySelector(".time");
+  let dublinTime = moment().tz("Europe/dublin");
+  dublinDatesElement.innerHTML = dublinTime.format("MMMM Do YYYY");
+  dublinTimeElement.innerHTML = dublinTime.format("h:mm:ss A");
 }
 
 updateTime();
