@@ -1,5 +1,5 @@
 function updateTime() {
-  let sanDiegoElement = document.querySelector(".#san-diego");
+  let sanDiegoElement = document.querySelector("#san-diego");
   let sanDiegoDatesElement = sanDiegoElement.querySelector(".date");
   let sanDiegoTimeElement = sanDiegoElement.querySelector(".time");
   let sanDiegoTime = moment().tz("America/Los_Angeles");
