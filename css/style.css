@@ -21,6 +21,9 @@ footer {
   text-align: center;
   font-size: 12px;
 }
+a {
+  color: #0881a3;
+}
 .container {
   max-width: 600px;
   margin: 60px auto;
