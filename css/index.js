@@ -26,7 +26,7 @@ function updateCity(event) {
   let cityName = cityTimezone.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(cityTimezone);
   let timezoneElement = document.querySelector("#timezone");
-  timezoneElement.innerHTML = `<div class="city">
+  timezoneElement.innerHTML = `
       <div>
         <h2>${cityName}</h2>
         <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
